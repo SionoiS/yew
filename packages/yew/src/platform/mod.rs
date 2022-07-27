@@ -45,7 +45,7 @@ use std::future::Future;
 #[cfg(feature = "ssr")]
 pub(crate) mod io;
 
-pub mod sync;
+//pub mod sync;
 
 #[cfg(target_arch = "wasm32")]
 #[path = "rt_wasm_bindgen.rs"]
